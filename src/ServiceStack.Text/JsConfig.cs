@@ -575,7 +575,7 @@ namespace ServiceStack.Text
                        ?? sExcludePropertyReferences;
             }
             set {
-                if (sExcludePropertyReferences != null) sExcludePropertyReferences = value;
+                if (value != null) sExcludePropertyReferences = value;
             }
         }
 
